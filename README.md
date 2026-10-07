@@ -17,9 +17,9 @@ La misma app, pensada para el dedo. La música sigue sonando con la pantalla apa
 
 <table>
   <tr>
-    <td><img src="screenshots/movil-inicio.png" alt="Inicio en el móvil" width="260"></td>
-    <td><img src="screenshots/movil-sonando.png" alt="Sonando ahora en el móvil" width="260"></td>
-    <td><img src="screenshots/movil-cola.png" alt="Cola en el móvil" width="260"></td>
+    <td width="33%"><img src="screenshots/movil-inicio.png" alt="Inicio en el móvil" width="100%"></td>
+    <td width="33%"><img src="screenshots/movil-sonando.png" alt="Sonando ahora en el móvil" width="100%"></td>
+    <td width="33%"><img src="screenshots/movil-cola.png" alt="Cola en el móvil" width="100%"></td>
   </tr>
   <tr>
     <td><b>Inicio</b>, con lo que suena abajo</td>
@@ -27,9 +27,9 @@ La misma app, pensada para el dedo. La música sigue sonando con la pantalla apa
     <td><b>Cola</b>: tu cola se ordena arrastrando el asa</td>
   </tr>
   <tr>
-    <td><img src="screenshots/movil-disco.png" alt="Disco en el móvil" width="260"></td>
-    <td><img src="screenshots/movil-biblioteca.png" alt="Tu biblioteca en el móvil" width="260"></td>
-    <td><img src="screenshots/movil-bloqueo.png" alt="Pantalla de bloqueo" width="260"></td>
+    <td width="33%"><img src="screenshots/movil-disco.png" alt="Disco en el móvil" width="100%"></td>
+    <td width="33%"><img src="screenshots/movil-biblioteca.png" alt="Tu biblioteca en el móvil" width="100%"></td>
+    <td width="33%"><img src="screenshots/movil-bloqueo.png" alt="Pantalla de bloqueo" width="100%"></td>
   </tr>
   <tr>
     <td><b>Disco</b></td>
