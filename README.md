@@ -1,6 +1,8 @@
-# Musify
+# Pletina
 
-Reproductor de música personal tipo Spotify para **Windows, Mac, Linux y Android**. Buscas un grupo, eliges un disco y suena: cada canción se reproduce en streaming de solo audio desde YouTube Music, sin anuncios. Biblioteca, playlists, historial, cola tipo DJ y descargas para escuchar sin conexión (también en el móvil); en el PC, además, tu propia música.
+Reproductor de música tipo Spotify para **Windows, Mac, Linux y Android**. Buscas un grupo, eliges un disco y suena: cada canción se reproduce en streaming de solo audio desde YouTube Music, sin anuncios. Biblioteca, playlists, historial, cola tipo DJ y descargas para escuchar sin conexión (también en el móvil); en el PC, además, tu propia música.
+
+Antes se llamaba Musify. Es software libre ([GPL-3.0](https://github.com/diad87/pletina/blob/main/LICENSE)): el código está en [diad87/pletina](https://github.com/diad87/pletina). Aquí se publican las versiones.
 
 ![Inicio](screenshots/inicio.png)
 
@@ -40,35 +42,37 @@ La misma app, pensada para el dedo. La música sigue sonando con la pantalla apa
 
 ## Instalar
 
-Descarga el archivo de tu sistema desde la [última versión](https://github.com/diad87/musify-releases/releases/latest):
+Descarga el archivo de tu sistema desde la [última versión](https://github.com/diad87/pletina-releases/releases/latest) (hasta la 0.6.0, los archivos se llaman `Musify_…`):
 
 | Sistema | Archivo |
 |---|---|
-| Windows 10/11 | `Musify_x.y.z_x64-setup.exe` — doble clic |
-| Mac (chip de Apple o Intel, macOS 11+) | `Musify_x.y.z_universal.dmg` — arrastrar a Aplicaciones |
-| Linux (64 bits) | `Musify_x.y.z_amd64.AppImage` (cualquier distribución) o `.deb` (Ubuntu/Debian) |
-| Android 7 o superior (64 bits) | `Musify_x.y.z_android.apk` — mejor con Obtainium (abajo), para que se actualice sola |
+| Windows 10/11 | `Pletina_x.y.z_x64-setup.exe`: doble clic |
+| Mac (chip de Apple o Intel, macOS 11+) | `Pletina_x.y.z_universal.dmg`: arrastrar a Aplicaciones |
+| Linux (64 bits) | `Pletina_x.y.z_amd64.AppImage` (cualquier distribución) o `.deb` (Ubuntu/Debian) |
+| Android 7 o superior (64 bits) | `Pletina_x.y.z_android.apk`, mejor con Obtainium (abajo) para que se actualice sola |
 
-Los instaladores de escritorio no están firmados por Microsoft ni Apple, así que la primera vez el sistema avisa. En la página de cada versión se explica cómo abrirla.
+Los instaladores de escritorio todavía no están firmados por Microsoft ni Apple, así que la primera vez el sistema avisa. En Windows: «Más información» → «Ejecutar de todas formas». En Mac: clic derecho en la app → Abrir. Solo pasa al instalarla: las actualizaciones las baja la propia app. La firma del instalador de Windows está solicitada (ver la [política de firma](https://github.com/diad87/pletina#code-signing-policy)).
+
+Si tenías Musify, Pletina la sustituye y conserva tu biblioteca.
 
 ### Android, con Obtainium
 
-Musify no está en Google Play. [Obtainium](https://github.com/ImranR98/Obtainium) instala el APK desde aquí y lo actualiza cuando sale una versión nueva:
+Pletina no está en Google Play. [Obtainium](https://github.com/ImranR98/Obtainium) instala el APK desde aquí y lo actualiza cuando sale una versión nueva:
 
 1. Instala Obtainium (desde su GitHub o desde F-Droid).
-2. En Obtainium, «Añadir app», pega `https://github.com/diad87/musify-releases` y pulsa «Añadir».
+2. En Obtainium, «Añadir app», pega `https://github.com/diad87/pletina-releases` y pulsa «Añadir».
 3. Pulsa «Instalar». La primera vez, Android pide permiso para instalar apps desde Obtainium.
 
-Si tenías una versión de prueba anterior a la 0.5.0, desinstálala antes: iba firmada con otra clave.
+Si ya la tenías en Obtainium con la dirección antigua (`musify-releases`), GitHub la redirige al nombre nuevo. Si Obtainium deja de encontrar versiones, bórrala de Obtainium (sin desinstalar la app) y vuelve a añadirla con la dirección nueva.
 
 ## Se actualiza sola
 
-En el PC (desde la 0.2.0), Musify busca versiones nuevas al arrancar y cada pocas horas, las descarga en segundo plano y las instala al cerrarse. En Linux, las actualizaciones automáticas funcionan con el AppImage.
+En el PC, la app busca versiones nuevas al arrancar y cada pocas horas, las descarga en segundo plano y las instala al cerrarse. En Linux, las actualizaciones automáticas funcionan con el AppImage.
 
 En Android, Obtainium avisa de cada versión nueva y la instala encima sin perder la biblioteca. La app también lo dice en «Tu biblioteca».
 
 Todas las versiones van firmadas: la app de escritorio no instala nada que no lleve nuestra firma, y Android no deja instalar encima un APK firmado por otro.
 
----
+## Privacidad
 
-Uso personal. El código fuente está en un repositorio privado; aquí solo se publican las versiones.
+Sin cuentas, sin analíticas y sin servidores propios: tu biblioteca se guarda solo en tu equipo. La app se conecta a Deezer (catálogo y carátulas), YouTube (el audio) y GitHub (actualizaciones). Más detalle en el [README del código](https://github.com/diad87/pletina#privacidad).
