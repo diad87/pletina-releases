@@ -1,6 +1,6 @@
 # Musify
 
-Reproductor de música personal tipo Spotify para **Windows, Mac, Linux y Android**. Buscas un grupo, eliges un disco y suena: cada canción se reproduce en streaming de solo audio desde YouTube Music, sin anuncios. Biblioteca, playlists, historial y cola tipo DJ; en el PC, además, descargas para escuchar sin conexión y tu propia música.
+Reproductor de música personal tipo Spotify para **Windows, Mac, Linux y Android**. Buscas un grupo, eliges un disco y suena: cada canción se reproduce en streaming de solo audio desde YouTube Music, sin anuncios. Biblioteca, playlists, historial, cola tipo DJ y descargas para escuchar sin conexión (también en el móvil); en el PC, además, tu propia música.
 
 ![Inicio](screenshots/inicio.png)
 
@@ -13,7 +13,7 @@ Reproductor de música personal tipo Spotify para **Windows, Mac, Linux y Androi
 
 ## En el móvil
 
-La misma app, pensada para el dedo. La música sigue sonando con la pantalla apagada y se maneja desde la pantalla de bloqueo, la notificación y los auriculares.
+La misma app, pensada para el dedo. La música sigue sonando con la pantalla apagada y se maneja desde la pantalla de bloqueo, la notificación y los auriculares. Los discos y playlists se descargan para escucharlos sin conexión (desde la 0.6.0), y siguen bajando aunque salgas de la app.
 
 <table>
   <tr>
