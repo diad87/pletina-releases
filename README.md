@@ -41,8 +41,18 @@ La misma app, pensada para el dedo. La música sigue sonando con la pantalla apa
   </tr>
   <tr>
     <td><b>Disco</b></td>
-    <td><b>Tu biblioteca</b>: playlists y discos guardados</td>
+    <td><b>Tu biblioteca</b>: playlists, discos e importar de Spotify</td>
     <td><b>Pantalla de bloqueo</b>: sigue sonando con la pantalla apagada</td>
+  </tr>
+  <tr>
+    <td width="33%"><img src="screenshots/movil-podcast.png" alt="Podcast de YouTube en el móvil" width="100%"></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Podcasts</b>: también los de YouTube, que se pueden descargar</td>
+    <td></td>
+    <td></td>
   </tr>
 </table>
 
