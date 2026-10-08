@@ -13,6 +13,10 @@ Antes se llamaba Musify. Es software libre ([GPL-3.0](https://github.com/diad87/
 | ![Sonando ahora](screenshots/sonando.png) | ![Buscar](screenshots/buscar.png) |
 | **Sonando ahora:** pantalla completa con la cola | **Buscar:** artistas y discos de Deezer |
 
+**Trae tus playlists de Spotify:** en Tu biblioteca → Importar de Spotify, pega el enlace de una lista pública o un CSV exportado (por ejemplo, con Exportify). Las canciones se buscan en el catálogo y, antes de guardar, ves cuáles se han encontrado.
+
+**Podcasts:** busca programas y escucha sus episodios, con filtro de idioma. También salen los de YouTube Music, con su portada, y esos episodios se pueden descargar para escucharlos sin conexión.
+
 ## En el móvil
 
 La misma app, pensada para el dedo. La música sigue sonando con la pantalla apagada y se maneja desde la pantalla de bloqueo, la notificación y los auriculares. Los discos y playlists se descargan para escucharlos sin conexión (desde la 0.6.0), y siguen bajando aunque salgas de la app.
@@ -73,6 +77,16 @@ En Android, Obtainium avisa de cada versión nueva y la instala encima sin perde
 
 Todas las versiones van firmadas: la app de escritorio no instala nada que no lleve nuestra firma, y Android no deja instalar encima un APK firmado por otro.
 
+## Comprobar que una descarga es auténtica
+
+Desde la 0.8.0, cada archivo lleva un certificado de procedencia de GitHub: demuestra que sale del código de [diad87/pletina](https://github.com/diad87/pletina) y de su compilación en GitHub Actions, sin pasar por el ordenador de nadie. Con la [CLI de GitHub](https://cli.github.com):
+
+```bash
+gh attestation verify Pletina_0.9.0_x64-setup.exe --repo diad87/pletina
+```
+
+Cada versión trae además `SHA256SUMS.txt` con la huella de cada archivo: `sha256sum -c SHA256SUMS.txt` en Linux o Mac, o `Get-FileHash` en Windows y compararla con la de la lista.
+
 ## Privacidad
 
-Sin cuentas, sin analíticas y sin servidores propios: tu biblioteca se guarda solo en tu equipo. La app se conecta a Deezer (catálogo y carátulas), YouTube (el audio) y GitHub (actualizaciones). Más detalle en el [README del código](https://github.com/diad87/pletina#privacidad).
+Sin cuentas, sin analíticas y sin servidores propios: tu biblioteca se guarda solo en tu equipo. La app se conecta a Deezer (catálogo y carátulas), YouTube (el audio y sus podcasts), GitHub (actualizaciones) y, solo si los usas, a Spotify (para leer una playlist pública que importes) y a Apple Podcasts y los servidores de cada podcast. Más detalle en el [README del código](https://github.com/diad87/pletina#privacidad).
