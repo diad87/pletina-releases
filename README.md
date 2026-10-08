@@ -12,6 +12,8 @@ Antes se llamaba Musify. Es software libre ([GPL-3.0](https://github.com/diad87/
 | **Disco:** la portada tiñe toda la pantalla | **Artista:** foto de cabecera y sus canciones más escuchadas |
 | ![Sonando ahora](screenshots/sonando.png) | ![Buscar](screenshots/buscar.png) |
 | **Sonando ahora:** pantalla completa con la cola | **Buscar:** artistas y discos de Deezer |
+| ![Podcasts](screenshots/podcasts.png) | ![Un programa de podcast](screenshots/podcast.png) |
+| **Podcasts:** también los de YouTube Music (en la captura, programas de ejemplo) | **Un programa:** sus episodios comparten cola, favoritos e historial con la música |
 
 **Trae tus playlists de Spotify:** en Tu biblioteca → Importar de Spotify, pega el enlace de una lista pública o un CSV exportado (por ejemplo, con Exportify). Las canciones se buscan en el catálogo y, antes de guardar, ves cuáles se han encontrado.
 
