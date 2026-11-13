@@ -1,70 +1,42 @@
 # Pletina
 
-Reproductor de música tipo Spotify para **Windows, Mac, Linux y Android**. Buscas un grupo, eliges un disco y suena: cada canción se reproduce en streaming de solo audio desde YouTube Music, sin anuncios. Biblioteca, playlists, historial, cola tipo DJ y descargas para escuchar sin conexión (también en el móvil); en el PC, además, tu propia música.
+Pletina es un reproductor de música y pódcasts disponible como **app web en iPhone, iPad, Android, Windows, macOS y Linux**. Puedes crear playlists, importar listas de Spotify y descargar el audio disponible para escucharlo sin conexión.
 
-Antes se llamaba Musify. Es software libre ([GPL-3.0](https://github.com/diad87/pletina/blob/main/LICENSE)): el código está en [diad87/pletina](https://github.com/diad87/pletina). Aquí se publican las versiones.
+**[Abrir Pletina en Tuqo](https://pletina-app.tuqo.ru/)** · [Instalar en iPhone y iPad](#instalar-en-iphone-y-ipad) · [Descargar instaladores nativos](#instalar)
 
-![Inicio](screenshots/inicio.png)
+Aquí se publican las versiones nativas y sus actualizaciones. Pletina es software libre con licencia [GPL-3.0](https://github.com/diad87/pletina/blob/main/LICENSE). Antes se llamaba Musify. [Repositorio del código fuente](https://github.com/diad87/pletina).
 
-| | |
-|---|---|
-| ![Disco](screenshots/disco.png) | ![Artista](screenshots/artista.png) |
-| **Disco:** la portada tiñe toda la pantalla | **Artista:** foto de cabecera y sus canciones más escuchadas |
-| ![Sonando ahora](screenshots/sonando.png) | ![Buscar](screenshots/buscar.png) |
-| **Sonando ahora:** pantalla completa con la cola | **Buscar:** artistas y discos de Deezer |
-| ![Podcasts](screenshots/podcasts.png) | ![Un programa de podcast](screenshots/podcast.png) |
-| **Podcasts:** también los de YouTube Music (en la captura, programas de ejemplo) | **Un programa:** sus episodios comparten cola, favoritos e historial con la música |
+## Instalar en iPhone y iPad
 
-**Trae tus playlists de Spotify:** en Tu biblioteca → Importar de Spotify, pega el enlace de una lista pública o un CSV exportado (por ejemplo, con Exportify). Las canciones se buscan en el catálogo y, antes de guardar, ves cuáles se han encontrado.
+Abre [Pletina en Safari](https://pletina-app.tuqo.ru/). En el menú **Compartir**, toca **Añadir a pantalla de inicio**. Si aparece **Abrir como app web**, actívalo y toca **Añadir**. También puedes elegir **Probar sin instalar** en la web. [Guía de Apple para iPhone](https://support.apple.com/es-es/guide/iphone/iphea86e5236/ios).
 
-**Podcasts:** busca programas y escucha sus episodios, con filtro de idioma. También salen los de YouTube Music, con su portada, y esos episodios se pueden descargar para escucharlos sin conexión.
+En Android y en el ordenador, abre la web oficial y pulsa **Instalar Pletina** para seguir los pasos de tu navegador.
 
-## En el móvil
+### Llevar tu biblioteca a la web
 
-La misma app, pensada para el dedo. La música sigue sonando con la pantalla apagada y se maneja desde la pantalla de bloqueo, la notificación y los auriculares. Los discos y playlists se descargan para escucharlos sin conexión (desde la 0.6.0), y siguen bajando aunque salgas de la app.
+En la aplicación nativa 0.13.0, guarda una copia desde **Tu biblioteca → Llevar mi biblioteca a la web**. Si vienes de otra instalación web, usa **Tu biblioteca → Copia de seguridad**. Abre Pletina desde el icono nuevo de Tuqo e importa el archivo en **Tu biblioteca → Copia de seguridad**.
 
-<table>
-  <tr>
-    <td width="33%"><img src="screenshots/movil-inicio.png" alt="Inicio en el móvil" width="100%"></td>
-    <td width="33%"><img src="screenshots/movil-sonando.png" alt="Sonando ahora en el móvil" width="100%"></td>
-    <td width="33%"><img src="screenshots/movil-cola.png" alt="Cola en el móvil" width="100%"></td>
-  </tr>
-  <tr>
-    <td><b>Inicio</b>, con lo que suena abajo</td>
-    <td><b>Sonando ahora</b>: se cierra deslizando hacia abajo</td>
-    <td><b>Cola</b>: tu cola se ordena arrastrando el asa</td>
-  </tr>
-  <tr>
-    <td width="33%"><img src="screenshots/movil-disco.png" alt="Disco en el móvil" width="100%"></td>
-    <td width="33%"><img src="screenshots/movil-biblioteca.png" alt="Tu biblioteca en el móvil" width="100%"></td>
-    <td width="33%"><img src="screenshots/movil-bloqueo.png" alt="Pantalla de bloqueo" width="100%"></td>
-  </tr>
-  <tr>
-    <td><b>Disco</b></td>
-    <td><b>Tu biblioteca</b>: playlists, discos e importar de Spotify</td>
-    <td><b>Pantalla de bloqueo</b>: sigue sonando con la pantalla apagada</td>
-  </tr>
-  <tr>
-    <td width="33%"><img src="screenshots/movil-podcast.png" alt="Podcast de YouTube en el móvil" width="100%"></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><b>Podcasts</b>: también los de YouTube, que se pueden descargar</td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
+La copia incluye favoritos, listas, historial y progreso de pódcasts. El audio descargado queda en la instalación anterior. Puedes volver a descargar en la web el audio disponible. [Notas de Pletina 0.13.0](https://github.com/diad87/pletina-releases/releases/tag/v0.13.0).
+
+## Capturas de la versión web
+
+![Inicio de Pletina en escritorio con discos y artistas para descubrir](screenshots/web-escritorio-inicio.png)
+
+La interfaz móvil se muestra en una vista emulada de iPhone.
+
+| Álbum | Sonando ahora | Pódcast |
+| :---: | :---: | :---: |
+| ![Ficha de un álbum con su lista de canciones en la vista de iPhone](screenshots/web-iphone-disco.png) | ![Reproductor en la vista de iPhone con saltos de 15 segundos](screenshots/web-iphone-sonando.png) | ![Ficha de un pódcast y sus episodios en la vista de iPhone](screenshots/web-iphone-podcast.png) |
 
 ## Instalar
 
-Descarga el archivo de tu sistema desde la [última versión](https://github.com/diad87/pletina-releases/releases/latest) (hasta la 0.6.0, los archivos se llaman `Musify_…`):
+Descarga el archivo de tu sistema desde la [última versión nativa](https://github.com/diad87/pletina-releases/releases/latest). La APK permite usar Android Auto y acceder al audio que ya descargaste en Android.
 
 | Sistema | Archivo |
 |---|---|
 | Windows 10/11 | `Pletina_x.y.z_x64-setup.exe`: doble clic |
 | Mac (chip de Apple o Intel, macOS 11+) | `Pletina_x.y.z_universal.dmg`: arrastrar a Aplicaciones |
-| Linux (64 bits) | `Pletina_x.y.z_amd64.AppImage` (cualquier distribución) o `.deb` (Ubuntu/Debian) |
+| Linux (64 bits) | `Pletina_x.y.z_amd64.AppImage` (distribuciones recientes) o `.deb` (Ubuntu/Debian) |
 | Android 7 o superior (64 bits) | `Pletina_x.y.z_android.apk`, mejor con Obtainium (abajo) para que se actualice sola |
 
 Los instaladores de escritorio todavía no están firmados por Microsoft ni Apple, así que la primera vez el sistema avisa. En Windows: «Más información» → «Ejecutar de todas formas». En Mac: clic derecho en la app → Abrir. Solo pasa al instalarla: las actualizaciones las baja la propia app. La firma del instalador de Windows está solicitada (ver la [política de firma](https://github.com/diad87/pletina#code-signing-policy)).
@@ -101,4 +73,4 @@ Cada versión trae además `SHA256SUMS.txt` con la huella de cada archivo: `sha2
 
 ## Privacidad
 
-Sin cuentas, sin analíticas y sin servidores propios: tu biblioteca se guarda solo en tu equipo. La app se conecta a Deezer (catálogo y carátulas), YouTube (el audio y sus podcasts), GitHub (actualizaciones) y, solo si los usas, a Spotify (para leer una playlist pública que importes) y a Apple Podcasts y los servidores de cada podcast. Más detalle en el [README del código](https://github.com/diad87/pletina#privacidad).
+Pletina funciona sin cuenta. La versión web guarda la biblioteca en el navegador. En la aplicación nativa, la biblioteca se guarda en el dispositivo y la app funciona sin analíticas. [Privacidad y servicios que consulta Pletina](https://github.com/diad87/pletina#privacidad).
