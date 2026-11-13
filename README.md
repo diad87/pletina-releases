@@ -2,7 +2,7 @@
 
 Música y pódcasts en una **app web para iPhone, iPad, Android, Windows, macOS y Linux**. Crea playlists, importa listas de Spotify y descarga el audio disponible para escucharlo sin conexión.
 
-El desarrollo se centra en la app web (PWA). Por ahora, no hay nuevas versiones de la APK de Android previstas.
+Por ahora, seguiremos desarrollando solo la **app web (PWA)**. No se prevén nuevas versiones de la APK de Android.
 
 <p align="center">
   <strong><a href="https://pletina-app.tuqo.ru/">Abrir Pletina en Tuqo</a></strong>
